@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Peralta&family=Raleway:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Raleway:wght@700&display=swap');
+body{
+  margin: 0px;
+  background-color: #fafafa;
+}
+
+.screen{
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  font-size: 45px;
+  font-family: cursive;
+  justify-content: flex-end;
+  height: 80px;
+  align-items: center;
+  background-color: #cecece;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+.clearButton{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  color: white;
+  width: max-content;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.centerme{
+  justify-content: center;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.calcHeader{
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  font-family: "Montserrat";
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.calc{
+  background-color: #282c34;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 410px;
+}
+
+.roundButton{
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  background-color: rgb(114, 0, 0);
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.footer{
+  font-family: 'Peralta', cursive;
+  color:rgb(0, 0, 0);
+  position: absolute;
+  bottom: 20px;
+  }
+  
+
+
